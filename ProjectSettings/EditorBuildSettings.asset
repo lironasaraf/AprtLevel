@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu/MainMenu.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/MainGame.unity
+    guid: 1e6ff2083b7b16f4bab805fb0b4ad3e0
+  - enabled: 1
+    path: Assets/Scenes/Level1/Level1.unity
+    guid: 80b8946a7e009494bbab642ec65ddd73
+  - enabled: 1
+    path: Assets/Scenes/SeaLevel/SeaLevel.unity
+    guid: 7adc8d7c4cfa2574a938b8eb4dedea8e
+  - enabled: 1
+    path: Assets/Scenes/ForestLevel/Level3.unity
+    guid: 85e359b43cbfc48409a68c9c0b7da8fe
+  - enabled: 1
+    path: Assets/Scenes/Level2/Level2.unity
+    guid: 0615eab1b26ac9040a900452207ffe0e
+  - enabled: 1
+    path: Assets/Scenes/ForestLevel/ForestLevel.unity
+    guid: 8a56ee7fc3cc0724ebf5c390e05a70e8
+  - enabled: 1
+    path: Assets/Scenes/Success.unity
+    guid: 4ea37fe425e648b489d044195f01f340
+  - enabled: 1
+    path: Assets/Scenes/GameTutorialPart1.unity
+    guid: f89e12c811292a44db1237dbaf8a1a2d
+  - enabled: 1
+    path: Assets/Scenes/GameTutorialPart2.unity
+    guid: dcd867d93fa52af4d9328b8c48fb3f54
+  - enabled: 1
+    path: Assets/Scenes/GameTutorialPart3.unity
+    guid: b7ce754171f02c54a87f14e9e9cf3955
+  - enabled: 1
+    path: Assets/Scenes/GameTutorialPart4.unity
+    guid: b344987a10cbf3e4890c5bb86010925a
+  m_configObjects: {}
