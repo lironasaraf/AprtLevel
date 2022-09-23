@@ -32,7 +32,7 @@ public class EventsAction : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.T))
         {
-            if (flags[0]&&!stateOf[0]) {
+            if (flags[0] && !stateOf[0]) {
                 stateOf[0] = true;
                 points++;
                 furniture[0].transform.GetChild(1).GetComponent<MeshRenderer>().material = black;
@@ -97,20 +97,20 @@ public class EventsAction : MonoBehaviour
     {
         if (other.tag == "TV")
         {
-            StartCoroutine(massage("0", 0));
+            StartCoroutine(massage("Please press T to turn off the TV!", 0));
 
         }
         else if (other.tag == "Fire")
         {
-            StartCoroutine(massage("1", 1));
+            StartCoroutine(massage("Please press T to turn off the gas!", 1));
         }
         else if (other.tag == "Water")
         {
-            StartCoroutine(massage("2", 2));
+            StartCoroutine(massage("You are wasting water! Please press T to turn off the water!", 2));
         }
         else if (other.tag == "Lamp")
         {
-            StartCoroutine(massage("3", 3));
+            StartCoroutine(massage("The lamp is lighting with no reason! Please press T to turn off the TV!", 3));
         }
 
 
